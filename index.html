@@ -5,12 +5,19 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Angular Application</title>
-</head>
-<body>
 
+</head>
+<body >
+  <div ng-app='app'>
+  <div  ng-controller='MainController' >
     <script src="js/angular.js"></script>
     <script src="js/app/app.js"></script>
     <script src="js/app/controllers/MainController.js"></script>
 
+    {{ name }}
+    {{ email }}
+    {{ phone }}
+  </div>
+  </div>
 </body>
 </html>
